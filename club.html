@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Gradient Border CSS */
+        .gradient-border {
+            border-width: 4px;
+            border-style: solid;
+            border-image: linear-gradient(45deg, #00000000, #000000) 1;
+        }
+        #jjj:hover{
+transform: translateY(-10px);
+box-shadow: rgba(0, 0,0, 0.5);
+}
+#jjj:hover{
+transform: translateY(-5px);
+box-shadow: rgba(0, 0,0, 0.5);
+}
+    </style>
+
+    <title>UMBB CLUBS</title>
+</head>
+<body class="h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="flex bg-gradient-to-r from-black via-gray-800 to-black gap-2 items-center p-4 justify-between  rounded-b-lg">
+        <div class="flex gap-6 items-center">
+            <img class="h-[80px] w-[80px] rounded-full" src="umbb.jpg" alt="umbb Logo">
+            <span class="text-white text-3xl font-semibold"> UMBB CLUBS</span>
+        </div>
+        <span class="text-white text-xl font-medium">Contact: +21321321321</span>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex gap-10 flex-wrap my-14 mx-auto items-center justify-center grow">
+        <div class="flex justify-center rounded-2xl p-2 items-center flex-col h-[600px] w-[370px] transform transition-transform hover:-translate-y-2 shadow-lg hover:shadow-2xl bg-black bg-opacity-0 gradient-border" id="m">
+            <img class="h-[70%] w-full rounded-t-lg object-cover" src="/2 pro/devup.jpg" alt="Call of Duty Cold War">
+            <div class="h-[auto] min-h-[30%] w-full   bg-opacity-0 p-4 text-center">
+                <h1 class="text-[25px] font-semibold text-gray-600"> DevUp</h1>
+                <p class="text-[16px]  bg-opacity-0 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quod quisquam minus? Delectus illum optio accusantium, eius, numquam quas itaque magni cumque atque odit sed iste voluptas nemo asperiores dicta!</p>
+            </div>
+        </div>
+
+        <div class="flex justify-center rounded-2xl p-2 items-center flex-col h-[600px] w-[370px] transform transition-transform hover:-translate-y-2 shadow-lg hover:shadow-2xl bg-black bg-opacity-0 gradient-border" id="m">
+            <img class="h-[70%] w-full rounded-t-lg object-cover" src="/2 pro/pimath.jpg" alt="Call of Duty Cold War">
+            <div class="h-[auto] min-h-[30%] w-full   bg-opacity-0 p-4 text-center">
+                <h1 class="text-[25px] font-semibold text-gray-600"> PiMath</h1>
+                <p class="text-[16px]  bg-opacity-0 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quod quisquam minus? Delectus illum optio accusantium, eius, numquam quas itaque magni cumque atque odit sed iste voluptas nemo asperiores dicta!</p>
+            </div>
+        </div>
+
+        
+        <div class="flex justify-center rounded-2xl p-2 items-center flex-col h-[600px] w-[370px] transform transition-transform hover:-translate-y-2 shadow-lg hover:shadow-2xl bg-black bg-opacity-0 gradient-border" id="m">
+            <img class="h-[70%] w-full rounded-t-lg object-cover" src="/2 pro/sp.jpg" alt="Call of Duty Cold War">
+            <div class="h-[auto] min-h-[30%] w-full   bg-opacity-0 p-4 text-center">
+                <h1 class="text-[25px] font-semibold text-gray-600"> spe</h1>
+                <p class="text-[16px]  bg-opacity-0 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quod quisquam minus? Delectus illum optio accusantium, eius, numquam quas itaque magni cumque atque odit sed iste voluptas nemo asperiores dicta!</p>
+            </div>
+        </div>
+        
+     
+       
+    </main>
+    <div class="fixed bottom-0 left-0 z-[1000]" id="jjj">
+        <!-- Non-sticky logo container -->
+          <img class=" w-[150px] bg-opacity-0  py-4 px-8 shadow-md rounded-full" src="/assert/icons8-whatsapp-logo-94.png" alt="Logo" class="h-12">
+  
+      
+      </div>
+      
+  
+    <!-- Footer -->
+    <footer class="w-full bg-white flex flex-col items-center justify-center p-6 mt-10 shadow-lg rounded-t-lg">
+        <span class="text-white text-lg font-semibold"></span>
+
+    </footer>
+
+
+</body>
+</html>
