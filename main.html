@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    //WARNING : Don't include the css in the main page, use an external stylesheet
     <style>
     
         .gradient-border {
@@ -19,6 +20,9 @@ box-shadow: rgba(0, 0,0, 0.5);
 
     <title>GameHub Galaxy</title>
 </head>
+    //WARNING: Don't insert the data manually, use Javascript to create a book component and add it dynamically to the page using DOM
+
+    //ERROR : We asked for a Club Page and a Library Page, not a Game Shop page, please stick to the assignment
 <body class="h-screen bg-gradient-to-r from-black via-gray-800 to-black flex flex-col">
 
 
@@ -33,6 +37,7 @@ box-shadow: rgba(0, 0,0, 0.5);
     
     <main class="flex gap-10 flex-wrap my-14 mx-auto items-center justify-center grow">
         <div class="flex justify-center rounded-2xl p-2 items-center flex-col h-[600px] w-[370px] transform transition-transform hover:-translate-y-2 shadow-lg hover:shadow-2xl bg-black bg-opacity-0 gradient-border" id="m">
+            //ERROR : All Images are not working, change the Url to the correct one, create a directory for assets and add images inside
             <img class="h-[70%] w-full rounded-t-lg object-cover" src="assert/OIP (9).jpg" alt="Call of Duty Cold War">
             <div class="h-[auto] min-h-[30%] w-full   bg-opacity-0 p-4 text-center">
                 <h1 class="text-[25px] font-semibold text-white"> FC25</h1>
@@ -123,7 +128,7 @@ box-shadow: rgba(0, 0,0, 0.5);
                 <p class="text-[18px] bg-black bg-opacity-0 text-gray-300">Engage in a high-octane military battle with your squad in Cold War’s ultimate showdown.</p>
             </div>
         </div>
-
+        //WARNING : don't use absolue sizes like 600px, instead try to use relative sizes like "10 vw" 
         <div class="flex justify-center rounded-2xl p-2 items-center flex-col h-[600px] w-[370px] transform transition-transform hover:-translate-y-2 shadow-lg hover:shadow-2xl bg-black bg-opacity-0 gradient-border" id="m">
             <img class="h-[70%] w-full rounded-t-lg object-cover" src="assert/OIP (4).jpg" alt="Call of Duty Cold War">
             <div class="h-[auto] min-h-[30%] w-full  bg-opacity-0 p-4 text-center">
